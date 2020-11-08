@@ -94,16 +94,15 @@ header .search-area ul li input {
 /* ////////////////////////////////////////// */
 
 #top-area {
-  background: url(https://wallpaperaccess.com/full/212648.jpg) no-repeat center center fixed; 
+  background: url(https://wallpaperaccess.com/full/212648.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  
+  background-size: cover; 
 }
 
 #top-area .profile-info {
-  padding: 200px 15px 90px 40px;
+  padding: 150px 15px 90px 40px;
 }
 
 #top-area .image {
@@ -145,7 +144,7 @@ header .search-area ul li input {
   color: white;
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 200;
   background-color: rgba(53, 48, 80, 0.5);
   border: navajowhite;
   -webkit-border-radius: 3px;
@@ -158,3 +157,95 @@ header .search-area ul li input {
   color: black;
   cursor: pointer;
 }
+
+
+/* ///////////Content Area////////////////// */
+
+
+#content-area {
+  overflow: auto;
+  background: #FAFAFA;
+  padding: 50px 0;
+}
+
+
+#content-area .side-column{
+  width: 25%;
+  margin: 0 2.5%;
+  float: left;
+}
+
+#content-area .main-area {
+  background: blue;
+  width: 65%;
+  margin: 0 2.5%;
+  float: left;
+}
+
+#content-area .side-column .widget-box {
+  background: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 9px 4px -7px rgba(0,0,0,0.39); 
+  box-shadow: 2px 9px 4px -7px rgba(0,0,0,0.39);
+  overflow: auto;
+} 
+
+
+
+#content-area .side-column .widget-box .head .img-container {
+  display: inline-block;
+} 
+
+#content-area .side-column .widget-box .head .widget-img {
+  background: #BFBFBF;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px 15px 0;
+} 
+
+#content-area .side-column .widget-box .head .widget-img i {
+  max-width: 50%;
+  font-size: 20px;
+} 
+
+
+#content-area .side-column .widget-box .head .widget-title {
+ display: inline-block;
+ width: 70%;
+}
+
+#content-area .side-column .widget-box .head .widget-icon {
+  display: inline-block;
+ }
+
+
+#content-area .side-column .widget-box .body h6 {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 10px;
+  color: red;
+ }
+
+
+#content-area .side-column .widget-box .body a {
+  text-decoration: none;
+  color: blue;
+ }
+ 
+ #content-area .side-column .widget-box .body .widget-icon {
+  display: inline-block;
+ }
+ 
+
+#content-area .side-column .widget-box .body p {
+ font-size: 0.9rem;
+ margin-bottom: 20px;
+ }
+ 
